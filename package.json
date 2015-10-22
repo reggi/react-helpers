@@ -1,0 +1,24 @@
+{
+  "name": "react-helpers",
+  "version": "0.0.1",
+  "description": "Helpers for react component",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "standard ./src",
+    "prepublish": "babel --stage 0 -d ./lib/ ./src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/react-helpers.git"
+  },
+  "keywords": [
+    "react",
+    "helper"
+  ],
+  "author": "Thomas Reggi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reggi/react-helpers/issues"
+  },
+  "homepage": "https://github.com/reggi/react-helpers#readme"
+}
